@@ -1,63 +1,16 @@
-# custom
-desktop.ini
+# Hidden junk
 .DS_Store
-.idea/
-.vscode/
-venv/
-*test_dir*
-*/~script_output/
-*_github.sh
+desktop.ini
+*._
+
+# Temp files
+*~*
 *.bak
-*.flt
 *.lock
 *.log
-*.ps1xml
 
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Development environments
+.idea*/
+.venv*/
+*.code-workspace
+.vscode/
